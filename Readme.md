@@ -1,8 +1,10 @@
+## Liquidation Bot
+
 This liquidation bot was designed to profit from liquidations on Anchor, the largest money-market protocol on Terra (before Terra blew up!).
 
-
-
 It is relatively simple, but was fully functional and returned a small profit. It provided a great opportunity to learn more about how Terra, Anchor and Terraswap worked. And besides, it was a ton of fun to build!
+
+## Bot Structure
 
 The bot is structured such that it continuously runs in the following loop:
     1. Check if we need to submit a bid for ETH or Luna. If so, submit bid, if not, pass.
