@@ -7,6 +7,7 @@ It is relatively simple, but was fully functional and returned a small profit. I
 ## Bot Structure
 
 The bot is structured such that it continuously runs in the following loop:
+
     1. Check if we need to submit a bid for ETH or Luna. If so, submit bid, if not, pass.
     2. Check if we need to retract our bid, and if so retract it.
     3. Check if we can activate our bid, and if so, activate it.
