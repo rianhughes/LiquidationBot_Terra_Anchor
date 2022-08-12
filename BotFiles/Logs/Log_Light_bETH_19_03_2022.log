@@ -1,0 +1,188 @@
+root - INFO - ############## Starting new run ################
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - test
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - test
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - test
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - test
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - No bid has been submitted
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - No bid has been submitted
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - No bid has been submitted
+root - INFO - Not submitted bid since amt==00
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - No bid has been submitted
+root - INFO - Not submitted bid since amt==00
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - No bid has been submitted
+root - INFO - Not submitted bid since amt==00
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - No bid has been submitted
+root - INFO - Not submitted bid since amt==00
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - No bid has been submitted
+root - ERROR - Swap error : name 'param' is not defined
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - No bid has been submitted
+root - ERROR - Swap error : 'str' object has no attribute 'denom'
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - No bid has been submitted
+root - ERROR - Swap error : 'str' object has no attribute 'denom'
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - No bid has been submitted
+root - ERROR - Swap error : Status 400 - math/big: cannot unmarshal "587788684.000000000000000000" into a *big.Int: tx parse error: invalid request
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - No bid has been submitted
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - No bid has been submitted
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - No bid has been submitted
+root - INFO - Submit bid, Sleep 5s
+root - ERROR - Swap error : name 'resp_bETH' is not defined
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Retract bid, Sleep 5s
+root - INFO - Retract bid : BlockTxBroadcastResult(height=8304431, txhash='35DEE01EAE1A8E88E9569818F5900EB5957BA86B9C5E151F9124922E2C828AA7', raw_log='[{"events":[{"type":"coin_received","attributes":[{"key":"receiver","value":"terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62"},{"key":"amount","value":"100000uusd"}]},{"type":"coin_spent","attributes":[{"key":"spender","value":"terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r"},{"key":"amount","value":"100000uusd"}]},{"type":"execute_contract","attributes":[{"key":"sender","value":"terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62"},{"key":"contract_address","value":"terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r"}]},{"type":"from_contract","attributes":[{"key":"contract_address","value":"terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r"},{"key":"action","value":"retract_bid"},{"key":"bid_idx","value":"1449"},{"key":"amount","value":"100000"}]},{"type":"message","attributes":[{"key":"action","value":"/terra.wasm.v1beta1.MsgExecuteContract"},{"key":"module","value":"wasm"},{"key":"sender","value":"terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62"},{"key":"sender","value":"terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r"},{"key":"module","value":"bank"}]},{"type":"transfer","attributes":[{"key":"recipient","value":"terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62"},{"key":"sender","value":"terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r"},{"key":"amount","value":"100000uusd"}]},{"type":"wasm","attributes":[{"key":"contract_address","value":"terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r"},{"key":"action","value":"retract_bid"},{"key":"bid_idx","value":"1449"},{"key":"amount","value":"100000"}]}]}]', gas_wanted=134078, gas_used=124682, logs=[TxLog(msg_index=0, log='', events=[{'type': 'coin_received', 'attributes': [{'key': 'receiver', 'value': 'terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62'}, {'key': 'amount', 'value': '100000uusd'}]}, {'type': 'coin_spent', 'attributes': [{'key': 'spender', 'value': 'terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'}, {'key': 'amount', 'value': '100000uusd'}]}, {'type': 'execute_contract', 'attributes': [{'key': 'sender', 'value': 'terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62'}, {'key': 'contract_address', 'value': 'terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'}]}, {'type': 'from_contract', 'attributes': [{'key': 'contract_address', 'value': 'terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'}, {'key': 'action', 'value': 'retract_bid'}, {'key': 'bid_idx', 'value': '1449'}, {'key': 'amount', 'value': '100000'}]}, {'type': 'message', 'attributes': [{'key': 'action', 'value': '/terra.wasm.v1beta1.MsgExecuteContract'}, {'key': 'module', 'value': 'wasm'}, {'key': 'sender', 'value': 'terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62'}, {'key': 'sender', 'value': 'terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'}, {'key': 'module', 'value': 'bank'}]}, {'type': 'transfer', 'attributes': [{'key': 'recipient', 'value': 'terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62'}, {'key': 'sender', 'value': 'terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'}, {'key': 'amount', 'value': '100000uusd'}]}, {'type': 'wasm', 'attributes': [{'key': 'contract_address', 'value': 'terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'}, {'key': 'action', 'value': 'retract_bid'}, {'key': 'bid_idx', 'value': '1449'}, {'key': 'amount', 'value': '100000'}]}], events_by_type={'coin_received': {'receiver': ['terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62'], 'amount': ['100000uusd']}, 'coin_spent': {'spender': ['terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'], 'amount': ['100000uusd']}, 'execute_contract': {'sender': ['terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62'], 'contract_address': ['terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r']}, 'from_contract': {'contract_address': ['terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'], 'action': ['retract_bid'], 'bid_idx': ['1449'], 'amount': ['100000']}, 'message': {'action': ['/terra.wasm.v1beta1.MsgExecuteContract'], 'module': ['wasm', 'bank'], 'sender': ['terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62', 'terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r']}, 'transfer': {'recipient': ['terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62'], 'sender': ['terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'], 'amount': ['100000uusd']}, 'wasm': {'contract_address': ['terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'], 'action': ['retract_bid'], 'bid_idx': ['1449'], 'amount': ['100000']}})], code=0, codespace='', info=None, data=None, timestamp=None)
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - ############## Starting new run ################
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Not retracting bid because there are none, bids_by_user=[]
+root - INFO - Not retracting bid, bid_needs_retracting = 1
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Not retracting bid because there are none, bids_by_user=[]
+root - INFO - Not retracting bid, bid_needs_retracting = 1
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Not retracting bid because there are none, bids_by_user=[]
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - Can't swap bETH since there is none in wallet, wallet_exposure['bETH']0
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - No bid has been submitted
+root - INFO - Submit bid, Sleep 5s
+root - ERROR - Swap error : name 'bETH' is not defined
+root - INFO - Not retracting bid, bid_needs_retracting=0
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Retracting bid, bids_by_user=[{'idx': '1450', 'collateral_token': 'terra19mkj9nec6e3y5754tlnuz4vem7lzh4n0lc2s3l', 'premium_slot': 1, 'bidder': 'terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62', 'amount': '100000', 'product_snapshot': '1', 'sum_snapshot': '0', 'pending_liquidated_collateral': '0', 'wait_end': 1647730325, 'epoch_snapshot': '0', 'scale_snapshot': '0'}], bid_needs_retracting=1
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Not retracting bid because there are none, bids_by_user=[]
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Going to submit bit, because no bid has been submitted
+root - INFO - Submit bid, Sleep 5s
+root - INFO - Submit bETH bid : BlockTxBroadcastResult(height=8304561, txhash='A90E4BFE5846C079006780B49929A466225D26A00F7532D8D7CCA857ADB6ACB0', raw_log='[{"events":[{"type":"coin_received","attributes":[{"key":"receiver","value":"terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r"},{"key":"amount","value":"100000uusd"}]},{"type":"coin_spent","attributes":[{"key":"spender","value":"terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62"},{"key":"amount","value":"100000uusd"}]},{"type":"execute_contract","attributes":[{"key":"sender","value":"terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62"},{"key":"contract_address","value":"terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r"}]},{"type":"from_contract","attributes":[{"key":"contract_address","value":"terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r"},{"key":"action","value":"submit_bid"},{"key":"bid_idx","value":"1451"},{"key":"amount","value":"100000"}]},{"type":"message","attributes":[{"key":"action","value":"/terra.wasm.v1beta1.MsgExecuteContract"},{"key":"module","value":"wasm"},{"key":"sender","value":"terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62"},{"key":"sender","value":"terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62"}]},{"type":"transfer","attributes":[{"key":"recipient","value":"terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r"},{"key":"sender","value":"terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62"},{"key":"amount","value":"100000uusd"}]},{"type":"wasm","attributes":[{"key":"contract_address","value":"terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r"},{"key":"action","value":"submit_bid"},{"key":"bid_idx","value":"1451"},{"key":"amount","value":"100000"}]}]}]', gas_wanted=153222, gas_used=140566, logs=[TxLog(msg_index=0, log='', events=[{'type': 'coin_received', 'attributes': [{'key': 'receiver', 'value': 'terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'}, {'key': 'amount', 'value': '100000uusd'}]}, {'type': 'coin_spent', 'attributes': [{'key': 'spender', 'value': 'terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62'}, {'key': 'amount', 'value': '100000uusd'}]}, {'type': 'execute_contract', 'attributes': [{'key': 'sender', 'value': 'terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62'}, {'key': 'contract_address', 'value': 'terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'}]}, {'type': 'from_contract', 'attributes': [{'key': 'contract_address', 'value': 'terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'}, {'key': 'action', 'value': 'submit_bid'}, {'key': 'bid_idx', 'value': '1451'}, {'key': 'amount', 'value': '100000'}]}, {'type': 'message', 'attributes': [{'key': 'action', 'value': '/terra.wasm.v1beta1.MsgExecuteContract'}, {'key': 'module', 'value': 'wasm'}, {'key': 'sender', 'value': 'terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62'}, {'key': 'sender', 'value': 'terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62'}]}, {'type': 'transfer', 'attributes': [{'key': 'recipient', 'value': 'terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'}, {'key': 'sender', 'value': 'terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62'}, {'key': 'amount', 'value': '100000uusd'}]}, {'type': 'wasm', 'attributes': [{'key': 'contract_address', 'value': 'terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'}, {'key': 'action', 'value': 'submit_bid'}, {'key': 'bid_idx', 'value': '1451'}, {'key': 'amount', 'value': '100000'}]}], events_by_type={'coin_received': {'receiver': ['terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'], 'amount': ['100000uusd']}, 'coin_spent': {'spender': ['terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62'], 'amount': ['100000uusd']}, 'execute_contract': {'sender': ['terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62'], 'contract_address': ['terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r']}, 'from_contract': {'contract_address': ['terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'], 'action': ['submit_bid'], 'bid_idx': ['1451'], 'amount': ['100000']}, 'message': {'action': ['/terra.wasm.v1beta1.MsgExecuteContract'], 'module': ['wasm'], 'sender': ['terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62', 'terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62']}, 'transfer': {'recipient': ['terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'], 'sender': ['terra1y2e4amq6txz7kkdsctf29djkc7qtg7fc6nnu62'], 'amount': ['100000uusd']}, 'wasm': {'contract_address': ['terra18j0wd0f62afcugw2rx5y8e6j5qjxd7d6qsc87r'], 'action': ['submit_bid'], 'bid_idx': ['1451'], 'amount': ['100000']}})], code=0, codespace='', info=None, data=None, timestamp=None)
+root - INFO - Not retracting bid, bid_needs_retracting=0
+root - INFO - ############## Starting new run ################
+root - INFO - ------------ NEW LOOP -----------
+root - INFO - Not submitting bid since bid_needs_retracting==01
+root - INFO - Not retracting bid because there are none, bids_by_user=[]
+root - INFO - Not Activating bid since bids_by_user==[],[]
+root - INFO - ############## Starting new run ################
